@@ -1,0 +1,27 @@
+# Git and editor files
+.git
+.gitignore
+.vscode
+.idea
+
+# Python cache
+**/__pycache__
+**/*.py[cod]
+
+# Virtual environments (in case one is ever created inside the project)
+venv/
+.venv/
+env/
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+
+# Deployment files the container doesn't use
+Procfile
+manifest.yml
+runtime.txt
+
+# Docs
+README.md
+LICENSE
