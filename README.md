@@ -1,3 +1,15 @@
+**For Operating System Lab**
+- Project title is (Online Course)
+- this is an old project for Django backend course. so it uses (MVT) Django for backend and sqllite for for database and native html/css for templates
+- dependancies has been collected using pip freeze
+
+***How to build using Docker***
+- the project already has a Dockerfile,
+- build an image using docker build -t operating-system-lab
+- then you can run the project using docker run -p 8000:8000 from existing Dockerfile. 
+- in the browser enter localhost:8000 
+- exit the terminal or press Ctrl + C to stop django server. 
+
 
 **General Notes**
 
